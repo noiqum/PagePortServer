@@ -1,0 +1,59 @@
+# Visual Studio files
+.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+out/
+
+# Packages
+packages/
+!packages/repositories.config
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+artifacts/
+
+# Resharper
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Core runtime
+*.deps.json
+*.runtimeconfig.json
+
+# Logs
+logs/
+*.log
+
+# Entity Framework Migrations
+migrations/
+
+# Publish output
+wwwroot/
+!wwwroot/uploads/
+
+# Secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Docker
+Dockerfile
+*.dockerignore
+
+# Misc
+*.swp
+*.swo
+*.bak
